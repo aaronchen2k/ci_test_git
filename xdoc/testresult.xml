@@ -1,1 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="0" hostname="macbook" name="pytest" skipped="0" tests="2" time="0.012" timestamp="2020-03-17T15:42:35.229812"><testcase classname="test_cases" file="test_cases.py" line="2" name="test_upper" time="0.000"></testcase><testcase classname="test_cases.TestClass" file="test_cases.py" line="6" name="test_one" time="0.000"></testcase></testsuite></testsuites>
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+    <testsuite errors="0" failures="1" hostname="macbook" name="pytest" skipped="0" tests="2" time="0.056"
+               timestamp="2020-03-31T13:59:03.905709">
+        <testcase classname="test_cases" file="test_cases.py" line="2" name="test_upper" time="0.009">
+            <failure message="AssertionError: assert &apos;FOO&apos; == &apos;FOO1&apos;
+  - FOO1
+  ?    -
+  + FOO">def test_upper():
+                &gt; assert &apos;foo&apos;.upper() == &apos;FOO1&apos;
+                E AssertionError: assert &apos;FOO&apos; == &apos;FOO1&apos;
+                E - FOO1
+                E ? -
+                E + FOO
+
+                test_cases.py:4: AssertionError
+            </failure>
+        </testcase>
+        <testcase classname="test_cases.TestClass" file="test_cases.py" line="6" name="test_one"
+                  time="0.000"></testcase>
+    </testsuite>
+</testsuites>

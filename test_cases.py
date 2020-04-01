@@ -1,7 +1,7 @@
 import pytest
 
 def test_upper():
-    assert 'foo'.upper() == 'FOO'
+    assert 'foo'.upper() == 'FOO1'
 
 class TestClass:
     def test_one(self):
