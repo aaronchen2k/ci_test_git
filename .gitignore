@@ -1,2 +1,6 @@
 /.idea/
 /.pytest_cache/
+/testresult.xml
+/testresults.xml
+/err.log
+/info.log
